@@ -1,0 +1,64 @@
+body {
+  background: #767b8d;
+}
+body header {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  margin: 50px;
+}
+body header h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.container a {
+  text-decoration: none;
+}
+.container a .randomSearch {
+  background: rgba(0, 0, 0, 0.3);
+  width: 400px;
+  padding: 100px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  font-family: "Josefin Slab", serif;
+  color: white;
+  border-radius: 50%;
+  font-size: 50px;
+}
+.container a .randomSearch:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #D3D3D3;
+}
+
+@keyframes pop-up {
+  0% {
+    opacity: 0;
+    transform: rotateX(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+.output {
+  perspective: 1000px;
+}
+.output li {
+  list-style: none;
+  animation-name: pop-up;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+}
+.output li a {
+  text-decoration: none;
+  color: white;
+}
+.output li a .result {
+  margin: 20px 30px 20px auto;
+  padding: 20px;
+  background: #a7adb2;
+}
+.output li a .result:hover {
+  color: #cbcfd2;
+  background: #8b929a;
+}
