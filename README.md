@@ -1,5 +1,5 @@
 # Wikipedia-Viewer
-Free Code Camp (Advanced Front End Development Project)
+Free Code Camp (Intermediate Front End Development Project)
 
 
 
